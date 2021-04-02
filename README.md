@@ -1,13 +1,13 @@
-# Daily
+# 📅 Daily
 
-[![Build Status](https://img.shields.io/travis/pexcn/daily/master?style=flat-square)](https://travis-ci.org/pexcn/daily)
+[![CI](https://github.com/pexcn/daily/workflows/CI/badge.svg)](https://github.com/pexcn/daily/actions)
 [![CDN](https://data.jsdelivr.com/v1/package/gh/pexcn/daily/badge/day)](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/)
 
 This script can be automatically generate something what you needed every day.
 
 [![Flag Counter](https://s04.flagcounter.com/countxl/jtlp/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_3/labels_1/pageviews_1/flags_0/percent_0/)](https://info.flagcounter.com/jtlp)
 
-## Lists
+## 🍭 Lists
 
 - [`adlist/adlist.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/adlist/adlist.txt)
 - [`adblock/adblock.conf`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/adblock/adblock.conf)
@@ -27,27 +27,27 @@ This script can be automatically generate something what you needed every day.
 
 ***Note: The [`pac`](https://github.com/pexcn/daily/tree/gh-pages/pac) list is only designed for [SwithcyOmega](https://github.com/FelisCatus/SwitchyOmega).***
 
-### Tips
+### ~~💡 Tips~~
 
-Visit via [jsDelivr CDN](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/).
+~~Visit via [jsDelivr CDN](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/).~~
 
-### OpenWrt
+### 📡 OpenWrt
 
 1. Put the [`scripts`](openwrt) into OpenWrt.
 2. Add the following cron jobs.
 
 ```bash
 # adblock
-0 3 * * * /path/to/adblock_script.sh
+0 3 * * * /path/to/adblock.sh
 
 # chinadns-ng
-1 3 * * * /path/to/chinadns-ng_script.sh
+1 3 * * * /path/to/chinadns-ng.sh
 
 # chinadns
-2 3 * * * /path/to/chinadns_script.sh
+2 3 * * * /path/to/chinadns.sh
 ```
 
-## Credits
+## 🙌 Credits
 
 - [alexa-static](https://s3.amazonaws.com/alexa-static/top-1m.csv.zip)
 - [apnic](https://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest)
@@ -60,10 +60,10 @@ Visit via [jsDelivr CDN](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/).
 - [aggregate](https://ftp.isc.org/isc/aggregate/)
 - [cidrmerge](http://cidrmerge.sourceforge.net)
 
-## License
+## 📝 License
 
 ```
-Copyright (C) 2018-2020, pexcn <i@pexcn.me>
+Copyright (C) 2018-2021, pexcn <i@pexcn.me>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
